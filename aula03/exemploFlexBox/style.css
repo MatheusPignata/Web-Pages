@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    /* flex-direction: row; padrão do display flex*/
+    /* flex-direction: column; */
+    width: 80%;
+    height: 200px;
+    border: 1px solid #000;
+    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    align-items: center;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+}
+
+span{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+}
+
+.vermelho{
+    background-color: red;;
+}
+
+.verde{
+    background-color: green;
+}
+
+.azul{
+    background-color: blue;
+}
