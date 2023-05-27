@@ -1,0 +1,65 @@
+/* Cores: #292929 #8418F0 #F09000 #13EF5D */
+
+body {
+    display: flex;
+    height: 98vh;
+    flex-direction: column;
+    background-color: #292929;
+    justify-content: space-evenly;
+}
+
+.primeira {
+    display: flex;
+    justify-content: space-between;
+}
+
+.segunda {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.terceira {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.roxo {
+    display: flex;
+    align-items: center;
+    background-color: #8418F0;
+    height: 200px;
+    width: 200px;
+}
+
+.laranja {
+    display: flex;
+    align-items: center;
+    background-color: #F09000;
+    height: 200px;
+    width: 200px;
+}
+
+.verde {
+    display: flex;
+    align-items: center;
+    background-color: #13EF5D;
+    height: 200px;
+    width: 200px;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.right {
+    text-align: right;
+}

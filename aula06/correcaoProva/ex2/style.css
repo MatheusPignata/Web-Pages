@@ -1,0 +1,148 @@
+/* Cores: #000 #FFF #BFB434 #3E3E3E */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 99.1vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: #000;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+.title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.color {
+    color: #BFB434;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar input {
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.searchBar img {
+    width: 50px;
+    height: 48px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: -50px;
+    background-color: #BFB434;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login img {
+    height: 35px;
+    margin-right: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5vh;
+}
+
+.navbar span {
+    margin: 10px 45px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)), url(assets/bgTlou.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.banner img {
+    height: 300px;
+    margin: 0 30px 0 -450px;
+}
+
+.banner button {
+    background-color: #3E3E3E;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 70px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.produtos img {
+    height: 200px;
+    width: 150px;
+
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px;
+    height: 350px
+}
+
+.produto button {
+    border: none;
+    background-color: #BFB434;
+    padding: 10px 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.produto button:hover {
+
+    background-color: #7a7322;
+}

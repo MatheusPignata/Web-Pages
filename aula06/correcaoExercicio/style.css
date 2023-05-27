@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 80%;
+    background-color: #fff;
+}
+
+header img {
+    height: 20vh;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #989898;
+    width: 80%;
+    height: 5vh;
+    font-size: 18px;
+    color: #fff;
+}
+
+.home {
+    color: #000;
+}
+
+nav span {
+    padding: 10px 20px;
+}
+
+.main {
+    display: flex;
+    height: 75vh;
+    width: 80%;
+    background-color: #fff;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.produtos img {
+    height: 200px;
+    width: 300px;
+}
+
+.card {
+    display: flex;
+}
+
+.produto {
+    padding: 8px;
+    border: 1px solid #c5c5c5;
+    margin-right: 30px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desc h3 {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.desc p {
+    text-align: justify;
+}
+
+.topicos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    border-left: 1px solid #c5c5c5;
+    padding-left: 30px;
+}
+
+.receitas {
+    display: flex;
+    flex-direction: column;
+    color: red;
+    height: 50%;
+}
+
+.receitas span {
+    margin: 10px 20px;
+    padding: 10px 0;
+    font-size: 18px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+
+.contato h1 {
+    color: red;
+    margin-bottom: 30px;
+}
